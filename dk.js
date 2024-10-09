@@ -1,15 +1,7 @@
-// If you want to add a mobile menu, you can use this JS.
-// Currently, the navbar only has "Contact Us" and no other links, so this JS isn't required unless you want to add more items in the future.
-
-const hamburger = document.getElementById('hamburger');
-const navLinks = document.getElementById('nav-links');
-
-hamburger.addEventListener('click', () => {
-    navLinks.classList.toggle('active');
-});
 
 
-// Optional: Add more JS for other interactive features, such as auto-scrolling images.
+
+//JS for other interactive features, such as auto-scrolling images.
 function scrollImages(containerId) {
     const container = document.getElementById(containerId);
     const images = container.querySelectorAll('img');
